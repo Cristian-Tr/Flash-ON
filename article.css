@@ -1,0 +1,333 @@
+#inspiration {
+  position: relative;
+  top: 2px;
+  height: auto;
+}
+
+@media only screen and (min-width: 769px) {
+  #inspiration {
+    top: 50px;
+    height: auto;
+  }
+}
+
+.step h6 {
+  font-size: 14px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 769px) {
+  .step h6 {
+    font-size: 24px;
+    margin-top: 1px;
+  }
+}
+
+.steps {
+  padding-top: 5px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 769px) {
+  .steps {
+    padding-top: 100px;
+  }
+}
+
+.step {
+  height: 35px;
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1px;
+  padding: 4px;
+}
+
+.step img {
+  width: 100%;
+  border-radius: 2px;
+  border: solid blue 3px;
+  box-shadow: 10px 10px 50px -20px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 769px) {
+  .step img {
+    justify-content: center;
+  }
+}
+
+#result img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 325px;
+  box-shadow: 10px 10px 50px -20px black;
+}
+
+@media (min-width: 769px) {
+  #result img {
+    width: 490px;
+    height: 490px;
+  }
+}
+
+.inspirations {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .inspirations {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.camera1 {
+  bottom: 50px;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  animation: rotate 10s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .camera1 {
+    top: 100px;
+    height: 350px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(235deg);
+  }
+
+  5% {
+    transform: rotate(235deg);
+  }
+
+  17% {
+    transform: rotate(255deg);
+  }
+
+  22% {
+    transform: rotate(255deg);
+  }
+
+  34% {
+    transform: rotate(290deg);
+  }
+
+  39% {
+    transform: rotate(290deg);
+  }
+
+  51% {
+    transform: rotate(315deg);
+  }
+
+  56% {
+    transform: rotate(315deg);
+  }
+
+  67% {
+    transform: rotate(285deg);
+  }
+
+  72% {
+    transform: rotate(285deg);
+  }
+
+  83% {
+    transform: rotate(255deg);
+  }
+
+  88% {
+    transform: rotate(255deg);
+  }
+
+  100% {
+    transform: rotate(235deg);
+  }
+}
+
+.camera1-design {
+  position: relative;
+  width: 120px;
+  height: 205px;
+  z-index: 1;
+  transform: scale(1);
+  filter: drop-shadow(0 4px black) drop-shadow(0 -4px black) drop-shadow(4px 0 black) drop-shadow(-4px 0 black);
+}
+
+.camera1-design-1 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 70px;
+  height: 205px;
+  background: black;
+  border-radius: 25px 25px 0;
+}
+
+.camera1-design-1:before {
+  content: "";
+  background: #c1c2c3;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 20px;
+  left: 35px;
+  z-index: 1;
+  transform: scale(1);
+  box-shadow: 0 0 0 10px blue;
+}
+
+.camera1-design-2 {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  width: 90px;
+  height: 100px;
+  background: black;
+  border-radius: 0 20px 30px 0;
+}
+
+.camera1-design-2:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  border-radius: 2px 0 0 2px;
+  background: dark;
+  left: -5px;
+  top: -10px;
+  box-shadow: 1px 125px 0 -1px blue;
+}
+
+.camera1-design-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 105px;
+  height: 71px;
+  background: black;
+  border-radius: 0 24px 24px 20px;
+}
+
+.camera1-design-3:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  bottom: 8px;
+  box-shadow: 0 -20px green, 0 -40px blue, 29px -20px 0 3px #c1c2c3;
+}
+
+.camera1-design-3:before {
+  content: "";
+  top: 10px;
+  width: 35px;
+  height: 57px;
+  background: lightgray;
+  border-radius: 1px;
+  bottom: 10px;
+  left: 15px;
+  position: absolute;
+  transform: scale(1);
+}
+
+.camera1-design-4 {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  width: 110px;
+  height: 75px;
+  background: gray;
+  border-radius: 100% / 30%;
+}
+
+.camera1-design-4:before {
+  content: "";
+  position: absolute;
+  top: 14%;
+  left: 20px;
+  width: 18px;
+  height: 45px;
+  background: white;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.camera1-design-5 {
+  position: absolute;
+  top: 23px;
+  right: 30px;
+  width: 12px;
+  height: 8px;
+  background: green;
+  border-radius: 0 5px 5px 0;
+}
+
+.camera1-lens {
+  display: flex;
+  align-items: center;
+  margin-left: -3px;
+  margin-top: -27px;
+}
+
+[class*="camera1-lens-"] {
+  display: flex;
+  align-items: center;
+}
+
+.lens1 {
+  background: gray;
+  border: 5px solid dark;
+  border-radius: 5px;
+}
+
+.lens-1 {
+  height: 80px;
+  width: 20px;
+  position: relative;
+  border: 4px solid black;
+}
+
+.lens-2 {
+  width: 35px;
+  height: 85px;
+  border: 4px solid black;
+  border-radius: 10%;
+}
+
+.lens-3 {
+  position: relative;
+  width: 20px;
+  height: 105px;
+  left: -1px;
+  border: 4px solid black;
+  background: black;
+}
