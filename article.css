@@ -105,7 +105,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  animation: rotate 10s linear infinite;
+  animation: rotate 12s linear infinite;
 }
 
 @media (min-width: 768px) {
@@ -184,7 +184,7 @@
   left: 20px;
   width: 70px;
   height: 205px;
-  background: black;
+  background: magenta;
   border-radius: 25px 25px 0;
 }
 
@@ -195,11 +195,11 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  top: 20px;
-  left: 35px;
+  top: 17px;
+  left: 25px;
   z-index: 1;
   transform: scale(1);
-  box-shadow: 0 0 0 10px blue;
+  box-shadow: 0 0 0 10px springgreen;
 }
 
 .camera1-design-2 {
@@ -208,7 +208,7 @@
   right: 10px;
   width: 90px;
   height: 100px;
-  background: black;
+  background: magenta;
   border-radius: 0 20px 30px 0;
 }
 
@@ -218,7 +218,7 @@
   width: 5px;
   height: 8px;
   border-radius: 2px 0 0 2px;
-  background: dark;
+  background: magenta;
   left: -5px;
   top: -10px;
   box-shadow: 1px 125px 0 -1px blue;
@@ -230,7 +230,7 @@
   right: 0;
   width: 105px;
   height: 71px;
-  background: black;
+  background: magenta;
   border-radius: 0 24px 24px 20px;
 }
 
@@ -238,17 +238,17 @@
   content: "";
   width: 10px;
   height: 10px;
-  background: red;
+  background: white;
   border-radius: 50%;
   position: absolute;
   right: 40px;
   bottom: 8px;
-  box-shadow: 0 -20px green, 0 -40px blue, 29px -20px 0 3px #c1c2c3;
+  box-shadow: 0 -20px green, 0 -40px blue, 29px -20px 0 3px springgreen;
 }
 
 .camera1-design-3:before {
   content: "";
-  top: 10px;
+  top: 9px;
   width: 35px;
   height: 57px;
   background: lightgray;
@@ -265,29 +265,29 @@
   right: 5px;
   width: 110px;
   height: 75px;
-  background: gray;
+  background: springgreen;
   border-radius: 100% / 30%;
 }
 
 .camera1-design-4:before {
   content: "";
   position: absolute;
-  top: 14%;
-  left: 20px;
+  top: 19%;
+  left: 25px;
   width: 18px;
   height: 45px;
   background: white;
-  border: 5px solid black;
+  border: 5px solid springgreen;
   border-radius: 5px;
 }
 
 .camera1-design-5 {
   position: absolute;
-  top: 23px;
-  right: 30px;
+  top: 17px;
+  right: 41px;
   width: 12px;
   height: 8px;
-  background: green;
+  background: springgreen;
   border-radius: 0 5px 5px 0;
 }
 
@@ -304,23 +304,20 @@
 }
 
 .lens1 {
-  background: gray;
-  border: 5px solid dark;
-  border-radius: 5px;
+  background: magenta;
+  border: 3px solid springgreen;
 }
 
 .lens-1 {
   height: 80px;
   width: 20px;
-  position: relative;
-  border: 4px solid black;
+  border: 3px solid springgreen;
 }
 
 .lens-2 {
   width: 35px;
-  height: 85px;
-  border: 4px solid black;
-  border-radius: 10%;
+  height: 90px;
+  border: 3px solid springgreen;
 }
 
 .lens-3 {
@@ -328,6 +325,6 @@
   width: 20px;
   height: 105px;
   left: -1px;
-  border: 4px solid black;
-  background: black;
+  background: magenta;
+  border: 3px solid springgreen;
 }
