@@ -70,15 +70,15 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 325px;
-  height: 325px;
+  width: 351px;
+  height: 351px;
   box-shadow: 10px 10px 50px -20px black;
 }
 
 @media (min-width: 769px) {
   #result img {
-    width: 490px;
-    height: 490px;
+    width: 710px;
+    height: 710px;
   }
 }
 
