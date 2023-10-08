@@ -110,10 +110,15 @@ h5 {
   border-bottom: 10px solid gray;
   border-left: 10px solid lightgray;
   border-radius: 50%;
-  animation: 2.5s lens-animation linear infinite;
+}
+/*Lens animation
+@media only screen and (min-width: 769px) {
+  .inner-lens-2 {
+    animation: 2.5s inner-lens-animation linear infinite;
+  }
 }
 
-@keyframes lens-animation {
+@keyframes inner-lens-animation {
   0% {
     width: 8px;
     height: 8px;
@@ -135,8 +140,8 @@ h5 {
   }
 
   55% {
-    width: 35px;
-    height: 35px;
+    width: 8px;
+    height: 8px;
     border-top: 35px solid black;
     border-right: 35px solid dimgray;
     border-bottom: 35px solid gray;
@@ -164,6 +169,7 @@ h5 {
     border-radius: 50%;
   }
 }
+*/
 
 .flash {
   position: absolute;
