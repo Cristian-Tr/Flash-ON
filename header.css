@@ -25,7 +25,7 @@ h1 {
   text-align: center;
   font-size: 53px;
   color: magenta;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 h2 {
@@ -111,7 +111,7 @@ h5 {
   border-left: 10px solid lightgray;
   border-radius: 50%;
 }
-/*Lens animation
+/*Lens animation */
 @media only screen and (min-width: 769px) {
   .inner-lens-2 {
     animation: 2.5s inner-lens-animation linear infinite;
@@ -169,7 +169,7 @@ h5 {
     border-radius: 50%;
   }
 }
-*/
+
 
 .flash {
   position: absolute;
