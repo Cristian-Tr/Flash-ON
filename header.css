@@ -127,8 +127,7 @@ h5 {
     border-left: 10px solid lightgray;
     border-radius: 50%;
   }
-
-  50% {
+  35% {
     width: 8px;
     height: 8px;
     border-top: 10px solid black;
@@ -138,9 +137,19 @@ h5 {
     border-radius: 50%;
   }
 
+  50% {
+    width: 88px;
+    height: 88px;
+    border-top: 10px solid black;
+    border-right: 10px solid dimgray;
+    border-bottom: 10px solid gray;
+    border-left: 10px solid lightgray;
+    border-radius: 50%;
+  }
+
   55% {
-    width: 8px;
-    height: 8px;
+    width: 88px;
+    height: 88px;
     border-top: 35px solid black;
     border-right: 35px solid dimgray;
     border-bottom: 35px solid gray;
@@ -149,6 +158,16 @@ h5 {
   }
 
   59% {
+    width: 88px;
+    height: 88px;
+    border-top: 10px solid black;
+    border-right: 10px solid dimgray;
+    border-bottom: 10px solid gray;
+    border-left: 10px solid lightgray;
+    border-radius: 50%;
+  }
+
+  75% {
     width: 8px;
     height: 8px;
     border-top: 10px solid black;
