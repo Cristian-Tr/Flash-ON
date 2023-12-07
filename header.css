@@ -1,3 +1,5 @@
+
+/* GENERAL */
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +10,7 @@ body {
   font-family: "Times New Roman", sans-serif, Verdana;
   background-color: white;
 }
+
 
 /* HEADER */
 header {
@@ -60,6 +63,86 @@ h5 {
   }
 }
 
+
+/* BIRDS */
+.bird {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg');
+  filter: color(white);
+  background-size: auto 100%;
+  background-color: transparent;
+  width: 88px;
+  height: 125px;
+  will-change: background-position;
+  animation: flight-cycle steps(10) infinite;
+}
+
+.first-bird {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+.second-bird {
+  animation-duration: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.third-bird {
+  animation-duration: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.bird-container {
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  transform: scale(0) translateX(-10vw);
+  will-change: transform;
+  animation: flight-route linear infinite;
+}
+
+.bird-container-one {
+  animation-duration: 14s;
+  animation-delay: 1;
+}
+
+.bird-container-two {
+  animation-duration: 16s;
+  animation-delay: 8s;
+}
+
+.bird-container-three {
+  animation-duration: 18s;
+  animation-delay: 17s;
+}
+
+@keyframes flight-cycle {
+
+  100% {
+    background-position: -900px 0;
+  }
+
+}
+
+@keyframes flight-route {
+
+  0% {
+    transform: translateY(14vh)  translateX(-10vw) scale(0);
+  }
+
+
+  45% {
+    transform: translateY(1vh) translateX(50vw) scale(0.5);
+  }
+
+
+  100% {
+    transform: translateY(-14vh) translateX(100vw) scale(0);
+  }
+
+}
+
+
+/* HEADER CAMERA*/
 #headerCamera {
   padding-top: 251px;
   width: 100%;
@@ -110,12 +193,12 @@ h5 {
   border-left: 10px solid lightgray;
   border-radius: 50%;
 }
+
 /*Lens animation */
-/* @media only screen and (min-width: 769px) {  Just for desktops*/ 
-  .inner-lens-2 {
-    animation: 2.5s inner-lens-animation linear infinite;
-  }
-/*}*/
+/* @media only screen and (min-width: 769px) {  Just for desktops*/
+.inner-lens-2 {
+  animation: 2.5s inner-lens-animation linear infinite;
+}
 
 @keyframes inner-lens-animation {
   0% {
@@ -127,6 +210,7 @@ h5 {
     border-left: 10px solid lightgray;
     border-radius: 50%;
   }
+
   35% {
     width: 8px;
     height: 8px;
@@ -300,6 +384,8 @@ h5 {
   }
 }
 
+
+/* TITLE ANIMATION */
 #title {
   margin-top: 1px;
   width: 100%;
