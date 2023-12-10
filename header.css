@@ -66,7 +66,7 @@ h5 {
 /* BIRDS */
 .bird {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg');
-  filter: color(white);
+  color: white;
   background-size: auto 100%;
   background-color: transparent;
   width: 88px;
@@ -130,7 +130,7 @@ h5 {
 
 
   45% {
-    transform: translateY(1vh) translateX(50vw) scale(0.25);
+    transform: translateY(1vh) translateX(50vw) scale(0.21);
   }
 
 
